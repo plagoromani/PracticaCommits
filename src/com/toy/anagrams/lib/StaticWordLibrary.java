@@ -139,11 +139,7 @@ final class StaticWordLibrary extends WordLibrary {
     private StaticWordLibrary() {
     }
 
-    /**
-     * Gets the word at a given index.
-     * @param idx index of required word
-     * @return word at that index in its natural form
-     */
+    
     public String getWord(int idx) {
         return WORD_LIST[idx];
     }
