@@ -165,12 +165,7 @@ final class StaticWordLibrary extends WordLibrary {
         return WORD_LIST.length;
     }
 
-    /**
-     * Checks whether a user's guess for a word at the given index is correct.
-     * @param idx index of the word guessed
-     * @param userGuess the user's guess for the actual word
-     * @return true if the guess was correct; false otherwise
-     */
+    
     public boolean isCorrect(int idx, String userGuess) {
         return userGuess.equals(getWord(idx));
     }
